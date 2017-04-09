@@ -11,6 +11,3 @@ the purpose of this repo is find out how easy it is to host maven artefacts
 1. `git add`
 1. `git commit`
 1. `git push`
-
-mvn install:install-file -DgroupId=org.harpeng -DartifactId=testlib -Dversion=1.0 -Dpackaging=jar -Dfile=${project.basedir}\MavenTestJar.jar -DlocalRepositoryPath=C:\Users\Ernest\Desktop\maven-test-repo
-
